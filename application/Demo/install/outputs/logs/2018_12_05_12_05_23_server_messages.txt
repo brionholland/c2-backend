@@ -1,0 +1,19 @@
+2018/12/05 12:05:22.597  INFO: COSMOS Version: 4.3.0
+2018/12/05 12:05:22.597  INFO: Processing CmdTlmServer configuration in file: C:/Projects/COSMOS-cosmos5/install/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/12/05 12:05:22.632  INFO: Marshal file does not exist: C:/Projects/COSMOS-cosmos5/install/outputs/tmp/marshal_467ddb339dc4b0776bc261b9071ece16.bin
+2018/12/05 12:05:22.905  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/12/05 12:05:22.905  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/12/05 12:05:22.905  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/12/05 12:05:22.905  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/12/05 12:05:22.905  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/12/05 12:05:22.905  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/12/05 12:05:22.905  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/12/05 12:05:22.909  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/12/05 13:16:25.147  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/12/05 13:16:25.148  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/12/05 13:16:25.148  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/12/05 13:16:25.160  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/12/05 13:16:25.160  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/12/05 13:16:25.160  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/12/05 13:16:25.161  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/12/05 13:16:25.254  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
