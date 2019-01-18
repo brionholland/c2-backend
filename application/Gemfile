@@ -47,15 +47,15 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data'#,  platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Ryan Added
-ENV['COSMOS_USERPATH'] = 'C:/git/COSMOS/demo'
-if ENV['COSMOS_DEVEL']
-  gem 'cosmos', :path => ENV['COSMOS_DEVEL']
-else
-  gem 'cosmos'
-end
+#ENV['COSMOS_USERPATH'] = 'C:/git/COSMOS/demo'
+#if ENV['COSMOS_DEVEL']
+#  gem 'cosmos', :path => ENV['COSMOS_DEVEL']
+#else
+#  gem 'cosmos'
+#end
 
 gem 'rack-cors'
 gem 'httpclient'

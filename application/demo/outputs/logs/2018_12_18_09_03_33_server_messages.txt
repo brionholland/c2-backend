@@ -1,0 +1,79 @@
+2018/12/18 09:03:32.190  INFO: COSMOS Version: 4.3.0
+2018/12/18 09:03:32.190  INFO: Processing CmdTlmServer configuration in file: C:/git/trunk/demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/12/18 09:03:32.240  INFO: Processing CmdTlmServer configuration in file: C:/git/trunk/demo/config/targets/INST/cmd_tlm_server.txt
+2018/12/18 09:03:32.246  INFO: Processing CmdTlmServer configuration in file: C:/git/trunk/demo/config/targets/INST/cmd_tlm_server2.txt
+2018/12/18 09:03:32.271  INFO: Processing CmdTlmServer configuration in file: C:/git/trunk/demo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2018/12/18 09:03:32.300  INFO: Processing CmdTlmServer configuration in file: C:/git/trunk/demo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2018/12/18 09:03:32.311  INFO: Processing CmdTlmServer configuration in file: C:/git/trunk/demo/config/targets/DART/cmd_tlm_server.txt
+2018/12/18 09:03:32.334  INFO: Marshal file does not exist: C:/git/trunk/demo/outputs/tmp/marshal_22da08d2d663102cc1f5e0d6662de494.bin
+2018/12/18 09:03:33.073  INFO: Creating thread for router INST_ROUTER
+2018/12/18 09:03:33.074  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/12/18 09:03:33.074  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/12/18 09:03:33.074  INFO: Creating thread for interface INST_INT
+2018/12/18 09:03:33.074  INFO: Creating thread for interface INST2_INT
+2018/12/18 09:03:33.075  INFO: Creating thread for interface SYSTEM_INT
+2018/12/18 09:03:33.075  INFO: Starting packet reading for INST_ROUTER
+2018/12/18 09:03:33.075  INFO: Connecting to INST_ROUTER...
+2018/12/18 09:03:33.076  INFO: INST_ROUTER Connection Success
+2018/12/18 09:03:33.076  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/12/18 09:03:33.076  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/12/18 09:03:33.076  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/12/18 09:03:33.076  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/12/18 09:03:33.076  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/12/18 09:03:33.076  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/12/18 09:03:33.077  INFO: Starting packet reading for INST_INT
+2018/12/18 09:03:33.077  INFO: Connecting to INST_INT...
+2018/12/18 09:03:33.077  INFO: Starting packet reading for INST2_INT
+2018/12/18 09:03:33.077  INFO: Connecting to INST2_INT...
+2018/12/18 09:03:33.078  INFO: Starting packet reading for SYSTEM_INT
+2018/12/18 09:03:33.078  INFO: Connecting to SYSTEM_INT...
+2018/12/18 09:03:33.078  INFO: SYSTEM_INT Connection Success
+2018/12/18 09:03:33.080  INFO: INST_INT Connection Success
+2018/12/18 09:03:33.081  INFO: INST2_INT Connection Success
+2018/12/18 09:03:33.194  ERROR: INST_INT - Unknown 10 byte packet starting: 3DC7F69F8A7E24131638
+2018/12/18 09:03:33.200  ERROR: INST2_INT - Unknown 10 byte packet starting: 36BD5B88D75F488D8289
+2018/12/18 09:03:33.200  INFO: INST2 HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2018/12/18 09:03:33.200)
+2018/12/18 09:03:33.200  ERROR: INST2 HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2018/12/18 09:03:33.200)
+2018/12/18 09:03:33.200  ERROR: INST2 HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2018/12/18 09:03:33.200)
+2018/12/18 09:03:33.200  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2018/12/18 09:03:33.200)
+2018/12/18 09:03:33.204  INFO: Log File Opened : C:/git/trunk/demo/outputs/logs/2018_12_18_09_03_33_tlm.bin
+2018/12/18 09:03:33.288  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2018/12/18 09:03:33.288)
+2018/12/18 09:03:33.288  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2018/12/18 09:03:33.288)
+2018/12/18 09:03:33.288  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2018/12/18 09:03:33.288)
+2018/12/18 09:03:33.288  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2018/12/18 09:03:33.288)
+2018/12/18 09:03:34.133  INFO: INST2 HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2018/12/18 09:03:34.133)
+2018/12/18 09:03:34.139  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2018/12/18 09:03:34.139)
+2018/12/18 09:03:35.128  WARN: INST2 HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2018/12/18 09:03:35.128)
+2018/12/18 09:03:35.137  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2018/12/18 09:03:35.137)
+2018/12/18 09:03:37.023  INFO: Log File Closed : C:/git/trunk/demo/outputs/logs/2018_12_18_09_03_33_tlm.bin
+2018/12/18 09:03:37.023  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/12/18 09:03:37.023  INFO: Connection Lost for SYSTEM_INT
+2018/12/18 09:03:37.247  INFO: Killing thread for router INST_ROUTER
+2018/12/18 09:03:37.247  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2018/12/18 09:03:37.247  INFO: Connection Lost for INST_ROUTER
+2018/12/18 09:03:37.290  INFO: Stopped packet reading for INST_ROUTER
+2018/12/18 09:03:37.300  INFO: Disconnected from router INST_ROUTER
+2018/12/18 09:03:37.300  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/12/18 09:03:37.300  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/12/18 09:03:37.300  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/12/18 09:03:37.391  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/12/18 09:03:37.401  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/12/18 09:03:37.401  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/12/18 09:03:37.407  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/12/18 09:03:37.471  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/12/18 09:03:37.491  INFO: Killing thread for interface INST_INT
+2018/12/18 09:03:37.497  INFO: Clean disconnect from INST_INT (returned nil)
+2018/12/18 09:03:37.497  INFO: Connection Lost for INST_INT
+2018/12/18 09:03:37.497  INFO: Stopped packet reading for INST_INT
+2018/12/18 09:03:37.501  INFO: Disconnected from interface INST_INT
+2018/12/18 09:03:37.501  INFO: Killing thread for interface INST2_INT
+2018/12/18 09:03:37.508  INFO: Clean disconnect from INST2_INT (returned nil)
+2018/12/18 09:03:37.508  INFO: Connection Lost for INST2_INT
+2018/12/18 09:03:37.508  INFO: Stopped packet reading for INST2_INT
+2018/12/18 09:03:37.511  INFO: Disconnected from interface INST2_INT
+2018/12/18 09:03:37.511  INFO: Killing thread for interface SYSTEM_INT
+2018/12/18 09:03:37.520  INFO: Stopped packet reading for SYSTEM_INT
+2018/12/18 09:03:37.521  INFO: Disconnected from interface SYSTEM_INT
+2018/12/18 09:03:37.521  INFO: Disconnected from interface EXAMPLE_INT
+2018/12/18 09:03:37.521  INFO: Disconnected from interface TEMPLATED_INT
+2018/12/18 09:03:37.521  INFO: Disconnected from interface DART_INT
